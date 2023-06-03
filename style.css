@@ -1,0 +1,440 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Shantell Sans', cursive;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+
+html{
+
+    font-size: 62.5%;
+
+}
+
+
+.hero{
+    
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)), url(img1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-left: 3rem;
+     padding-right: 3rem;
+
+}
+
+.logo{
+
+    color:whitesmoke;
+    font-size: 4rem;
+    letter-spacing: .1rem;
+    cursor: pointer;
+    padding-top: 5rem;
+
+}
+
+span{
+    color: rgb(194, 224, 134);
+}
+
+nav ul li{
+
+    display: inline-block;
+    list-style: none;
+    padding: 1rem 2.5rem;
+    font-size: 2rem;
+}
+
+nav ul li a{
+
+    color:whitesmoke;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+nav ul li a:hover{
+
+    color:rgb(194, 224, 134) ;
+    transition: 0.2s;
+}
+
+.btn{
+    
+    color: rgb(194, 224, 134) ;
+    border: .2rem solid;
+    font-weight: bold;
+    padding: .1rem 2.5rem;
+    border-radius: 3rem;
+    font-size: 2.5rem;
+    letter-spacing: .1rem;
+}
+
+.btn:hover{
+    transform:scale(1.1);
+    transition: 0.2s;
+    background-color:rgb(194, 224, 134) ;
+    color: black;
+}
+.content{
+    position:absolute;
+    top: 50%;
+    left: 4%;
+    transform: translateY(-50%);
+}
+h1{
+    color: whitesmoke;
+    margin: 2rem 0rem 2rem;
+    font-size: 7rem;
+    letter-spacing: .2rem;
+}
+h2{
+    color:cornsilk;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    letter-spacing: .1rem;
+}
+h4{
+    color:whitesmoke;
+    letter-spacing: .2rem;
+    font-size: 2rem;
+}
+.newslatter{
+
+    width: 50rem;
+    max-width: 100%;
+    position: relative;
+    
+}
+.newslatter form input:first-child{
+
+    display: inline-block;
+    width: 100%;
+    padding: 1.4rem 13rem 1.4rem 1.5rem;
+    border: .2rem solid;
+    outline: none;
+    border-radius: 2.5rem;
+    background: transparent;
+    color:rgb(194, 224, 134);
+    font-size: 1.5rem;
+}
+
+.newslatter form input:last-child{
+
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: .8rem 2.5rem;
+    border-radius: 2.5rem;
+    color:black ;
+    background-color: rgb(194, 224, 134) ;
+    box-shadow: 0rem 0rem .5rem  #000, 0rem 0rem 2rem #858585;
+    top: .7rem;
+    right: .8rem;
+    font-size: 1.5rem;    
+}
+.newslatter form input:last-child:hover{
+    transform:scale(1.1);
+    transition: 0.2s;
+    
+   
+}
+.about{
+    width: 100%;
+    padding: 8rem 0rem;
+    background-color: #070707;
+}
+.about img{
+    height: auto;
+    width: 43rem;
+    margin-left:1rem;
+}
+.about-text{
+    width: 70rem;
+    color:cornsilk ;
+}
+.main{
+    width: 140rem;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color:whitesmoke;
+    font-size: 6.5rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+.about-text h4{
+    color: whitesmoke;
+    letter-spacing: .2rem;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    text-transform: capitalize;
+}
+.about-text p{
+
+    color:rgb(245, 225, 245);
+    letter-spacing: .2rem;
+    line-height: 2.3rem;
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+}
+button{
+    
+    background: transparent;
+    color: rgb(194, 224, 134) ;
+    border: .2rem solid;
+    font-weight: bold;
+    padding: 1.2rem 3rem;
+    border-radius: 3rem;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+
+}
+button:hover{
+    transform:scale(1.1);
+    transition: 0.2s;
+    background-color:rgb(194, 224, 134) ;
+    color: black;
+    cursor: pointer;
+}
+.service{
+     background-color:#070707 ;
+     width: 100%;
+     padding: 10rem 0rem;
+}
+.title h2{
+
+    color: whitesmoke;
+    font-size: 7rem;
+    width: 120rem;
+    margin: 3rem auto;
+    text-align: center;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40rem;
+}
+.card{
+
+    height: 40rem;
+    width: 36rem;
+    padding: 2rem 3.5rem;
+    background: #101010;
+    border-radius: 2.5rem;
+    margin: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 4rem;
+    display: block;
+    align-items: center;
+    margin: 2.5rem 0rem;
+    color: rgb(194, 224, 134);
+}
+h5{
+    font-size: 2.5rem;
+    color: cornsilk;
+    margin-bottom: 1.5rem;
+    letter-spacing: .1rem;
+}
+.pra p{
+    color:rgb(245, 225, 245);
+    font-size: 1.5rem;
+    line-height: 2.7rem;
+    margin-bottom: 3.5rem;
+    
+}
+.card .button{
+    background: transparent;
+    color: rgb(194, 224, 134) ;
+    border: .2rem solid;
+    font-weight: bold;
+    padding: .8rem 1.6rem;
+    border-radius: 3rem;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+}
+.card .button:hover{
+    transform:scale(1.1);
+    transition: 0.2s;
+    background-color:rgb(194, 224, 134) ;
+    color: black;
+    cursor: pointer;
+}
+
+.contact-me{
+    width: 100%;
+    height: 20rem;
+    background: #090909;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: whitesmoke;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+}
+.contact-me .button-two{
+    background: transparent;
+    color: rgb(194, 224, 134) ;
+    border: .2rem solid;
+    font-weight: bold;
+    padding: .8rem 1.6rem;
+    border-radius: 3rem;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    margin-bottom:5rem;
+}
+.contact-me .button-two:hover{
+    transform:scale(1.1);
+    transition: 0.2s;
+    background-color:rgb(194, 224, 134) ;
+    color: black;
+    cursor: pointer;
+}
+
+footer{
+
+     position: relative;
+     width: 100%;
+     max-width: 200rem;
+     height: 50rem;
+     background:#070707;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     overflow: hidden;
+
+}
+
+footer h6{
+   color:whitesmoke;
+   font-size: 3rem;
+   margin-bottom:2rem ;   
+}
+
+footer p{
+
+    font-size: 2rem;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 2rem;   
+}
+.social em{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+em ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 1rem 1.7rem;
+    font-size: 2.5rem;
+    background:rgb(194, 224, 134);
+    border-radius: 50%;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+    margin-bottom: 5rem;
+
+}
+
+em ul li a{
+
+    color:black;
+    font-weight: bold;
+    text-transform: capitalize;   
+}
+em ul li:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+.end{
+    position: absolute;
+    color: whitesmoke;
+    bottom: 3rem;
+    font-size: 1.4rem;
+}
+
+
+@media(max-width:1200px) {
+
+    html {
+        
+        font-size: 55%;
+        width: 100%;
+
+    }
+    
+}
+
+
+@media(max-width:950px) {
+
+    html {
+        
+        font-size: 40%;
+        width: 100%;
+
+    }
+    
+}
+
+@media(max-width:768px) {
+    
+    html { 
+       
+        font-size: 30%;
+        width: 100%;
+        
+    }
+
+}
+
+@media(max-width:660px) {
+    
+    html { 
+       
+        font-size: 20%;
+        width: 100%;
+        
+    }
+
+}
+@media(max-width:380px) {
+    
+    html { 
+       
+        font-size: 18%;
+        width: 100%;
+        
+    }
+
+}
+
+
